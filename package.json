@@ -3,7 +3,7 @@
   "author": "Ruslan Tatyshev <ruslan.tatyshev@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "poi dev",
+    "start": "poi dev --port 3000",
     "build": "NODE_ENV=production poi build",
     "cname": "echo pomidorus.js.org>dist/CNAME",
     "deploy": "npm run build && npm run cname && gh-pages -d dist",
